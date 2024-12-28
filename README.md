@@ -1,4 +1,5 @@
 # JS Practices  
+---
 
 A curated collection of JavaScript exercises, examples, and best practices designed to help you enhance your skills. This repository covers a range of topics, from the basics to advanced concepts, with hands-on examples for practice.  
 
@@ -13,4 +14,5 @@ Whether you're just starting out or looking to sharpen your expertise, this repo
 ## 🚀 How to Use  
 1. Clone the repository:  
    ```bash
-   git clone 
+   git clone https://github.com/Vigneshlearneveryday/JavaScript.git
+   ---
