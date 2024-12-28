@@ -1,4 +1,4 @@
-// Methods 
+// Methods
 
 // 1: tofixed()
 let amount = 49.9753;
@@ -78,7 +78,6 @@ let cookiesInJar = 12;
 cookiesInJar *= 3;
 // console.log(cookiesInJar);
 
-
 // Division assignment operator (/=)
 // Case study: You have a 200-page book that you want to study over the next 5 days, planning to read the same number of pages each day. How would you calculate how many pages you need to read each day?
 
@@ -120,16 +119,14 @@ let isNight = true;
 const result = isRaining || isSnowy || isNight;
 // console.log(result);
 
-
 //! String Operators (+)
 // Let's consider a case where you want to create a personalized greeting message by combining a fixed greeting string with a variable name string.
 
-let greeting = "Hello, ";
+let greeting = "New, ";
 let firstName = "Vignesh";
 let lastName = "Developer";
 let message = greeting + firstName + " " + lastName;
 // console.log(message);
-
 
 //+=
 
