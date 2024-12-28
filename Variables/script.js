@@ -1,5 +1,8 @@
 //!----- Using `var`----
 
+var name = 'Vignesh';
+// console.log(name);
+
 //Task: Storing a person's first name
 
 // Variable Declaration and Initialization
