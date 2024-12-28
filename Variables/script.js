@@ -52,15 +52,38 @@ let sentence = "I am a Full Stack Web Developer";
 
 let isMarried = false;
 let isEducated = true;
-console.log(typeof isEducated);
-console.log(typeof isMarried);
+// console.log(typeof isEducated);
+// console.log(typeof isMarried);
 
 // ? Undefined
 
 let futureGoal;
-console.log(typeof futureGoal);
+// console.log(typeof futureGoal);
 
 // ? Null
 
 let nullVariable = null;
-console.log(typeof nullVariable);
+// console.log(typeof nullVariable);
+
+// Non - Primitive Data Types
+// 1. Arrays
+
+let Fruits = ['apple', 'banana', 'orange'];
+// console.log(Fruits);
+let MixedData = ['Vignesh', 28, true,[1,2,3,4,5,6]];
+// console.log(MixedData);
+
+// 2. Objects
+
+let person = {
+    name: 'Vignesh',
+    age: 28,
+    isEducated: true,
+    address: {
+        city: 'Chennai',
+        state: 'Tamil Nadu',
+        country: 'India'
+    }
+    }
+    // console.log(person);
+    
