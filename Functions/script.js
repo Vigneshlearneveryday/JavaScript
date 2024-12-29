@@ -8,7 +8,7 @@
 //    let sum = x + y;
 //    console.log(sum);
 //  }
-// Call or use the function     // using or calling the function called function invocation 
+// Call or use the function     // using or calling the function called function invocation
 // addNumbers()
 
 // Function parameter or Inputs
@@ -20,7 +20,7 @@
 // addNumbers(100,200);
 // addNumbers(1000,2000);
 
-// Return Keyword 
+// Return Keyword
 
 // function MultiplyNumbers(x,y) {
 //     let result = x * y;
@@ -42,7 +42,7 @@
 // console.log(ans);
 // alert(ans);
 
-// Arrow functions 
+// Arrow functions
 
 // const addNumbers = (a,b) => a + b;
 
@@ -52,15 +52,24 @@
 
 // Anonymous Functions
 // A Function without name is called Anonymous Function
-// Function declaration 
+// Function declaration
 // (function(){
 //     console.log("I am an Anonymous Function");
-    
+
 // }());
 
-(function(x,y){
-    let result = x + y;
-    console.log(result);
-    
-}(9,7))
+// (function(x,y){
+//     let result = x + y;
+//     console.log(result);
 
+// }(9,7))
+
+// Default Parametre
+
+const multiplyNumbers = function (x = 1, y = 2) {
+  // x=1,y=2 are default parametres
+  let result = x * y;
+  console.log(result);
+};
+
+multiplyNumbers(7); // first value is for x and another value for y
