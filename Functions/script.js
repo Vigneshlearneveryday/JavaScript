@@ -13,12 +13,12 @@
 
 // Function parameter or Inputs
 
-function addNumbers(x,y) {
-    let result = x + y;
-    // console.log(result);
-}
-addNumbers(100,200);
-addNumbers(1000,2000);
+// function addNumbers(x,y) {
+//     let result = x + y;
+//     // console.log(result);
+// }
+// addNumbers(100,200);
+// addNumbers(1000,2000);
 
 // Return Keyword 
 
@@ -34,10 +34,33 @@ addNumbers(1000,2000);
 // Function Expression
 // Most of the we use to pass this function to another function so use this method and store it in a variable using const
 
-const multiplyNumbers = function (x,y) {
-    let result = x * y;
-    return result;
-}
-let ans = multiplyNumbers(9,9);
-console.log(ans);
-alert(ans);
+// const multiplyNumbers = function (x,y) {
+//     let result = x * y;
+//     return result;
+// }
+// let ans = multiplyNumbers(9,9);
+// console.log(ans);
+// alert(ans);
+
+// Arrow functions 
+
+// const addNumbers = (a,b) => a + b;
+
+// let ans = addNumbers(9, 11);
+// console.log(ans);
+// alert(ans);
+
+// Anonymous Functions
+// A Function without name is called Anonymous Function
+// Function declaration 
+// (function(){
+//     console.log("I am an Anonymous Function");
+    
+// }());
+
+(function(x,y){
+    let result = x + y;
+    console.log(result);
+    
+}(9,7))
+
