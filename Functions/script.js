@@ -64,10 +64,10 @@
 
 // }(9,7))
 
-// Default Parametre
+// Default Parameters
 
 const multiplyNumbers = function (x = 1, y = 2) {
-  // x=1,y=2 are default parametres
+  // x=1,y=2 are default parameters
   let result = x * y;
   console.log(result);
 };
