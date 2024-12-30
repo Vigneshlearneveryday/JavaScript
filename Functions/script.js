@@ -72,4 +72,14 @@ const multiplyNumbers = function (x = 1, y = 2) {
   console.log(result);
 };
 
-multiplyNumbers(7); // first value is for x and another value for y
+// multiplyNumbers(7); // first value is for x and another value for y
+
+
+let exam = function (){
+  console.log("Yessss! your cleared the exam in A grade");
+  
+}
+exam();
+
+const exam2 =()=> console.log("Yessss! your cleared the exam in A grade");
+exam2();
